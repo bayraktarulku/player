@@ -11,9 +11,6 @@ var app = new Vue({
     'pause_onclick': function() {
       this.$root.$refs.player.pause();
     },
-    'stop_onclick': function() {
-      this.$root.$refs.player.pause();
-    },
     'vol_up_onclick': function() {
       if (this.$root.$refs.player.volume < 1)
         {
