@@ -1,0 +1,27 @@
+/* && */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.demo-card-wide.mdl-card {
+  width: 50%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('http://www.csm.org.nz/wp-content/uploads/2015/09/Piano-630x378.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.container {
+  padding-top: 5%;
+  padding-left: 33%;
+}
+
+.mdl-card__supporting-text {
+  padding-left: 33%
+}
