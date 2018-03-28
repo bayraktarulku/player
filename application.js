@@ -1,8 +1,5 @@
 var app = new Vue({
   'el': '#app',
-  'data': {
-    'selected': 'dashboard',
-  },
   'methods': {
     'play_onclick': function () {
         player = this.$root.$refs.player;
