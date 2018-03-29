@@ -7,6 +7,7 @@ html, body {
 
 .demo-card-wide.mdl-card {
   width: 50%;
+  margin: 8px;
 }
 .demo-card-wide > .mdl-card__title {
   color: #fff;
@@ -24,4 +25,14 @@ html, body {
 
 .mdl-card__supporting-text {
   padding-left: 33%
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+  viewBox: 0 0 24 24;
+}
+
+.mdl-card__supporting-text {
+  padding: 4px;
 }
